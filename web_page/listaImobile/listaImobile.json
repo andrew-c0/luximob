@@ -1,0 +1,111 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "listaImobile",
+  "name" : "listaImobile",
+  "lastUpdate" : 1618510453459,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [
+              "Id",
+              "Nume Anunț",
+              "Persoană contact",
+              "Locație",
+              "Data publicării"
+            ]
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "Bonita API"
+          },
+          "apiUrl" : {
+            "type" : "constant",
+            "value" : "../API/"
+          },
+          "params" : {
+            "type" : "constant"
+          },
+          "content" : {
+            "type" : "constant"
+          },
+          "columnsKey" : {
+            "type" : "constant"
+          },
+          "sortColumns" : {
+            "type" : "constant"
+          },
+          "selectedRow" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "pageSize" : {
+            "type" : "constant",
+            "value" : 10
+          },
+          "filter" : {
+            "type" : "constant"
+          },
+          "striped" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "condensed" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "bordered" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "7c1edbeb-2e50-4ba7-9e02-e4168d8f8fff",
+        "hasValidationError" : false,
+        "id" : "pbDataTable"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "60c75bcf-1eea-4eb5-a67f-1aaa6cb7e45f",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "d3ce101b-3703-43d5-999c-9cfca491f5bf",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "db2d52f9-b660-4ae7-bbe1-cd1b6c20fb4f",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
