@@ -1,0 +1,1468 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "paginaImobilAdmin",
+  "name" : "paginaImobilAdmin",
+  "lastUpdate" : 1619274994189,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 10,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "efd616ab-d028-41a5-b42d-edbf733ecdf1",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 4,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "31a2d4b9-e78d-41bc-a074-05ea4c27f416",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "srcType" : {
+                        "type" : "constant",
+                        "value" : "URL"
+                      },
+                      "url" : {
+                        "type" : "constant"
+                      },
+                      "assetName" : {
+                        "type" : "constant"
+                      },
+                      "alt" : {
+                        "type" : "interpolation"
+                      }
+                    },
+                    "reference" : "95c9a924-94da-4b6f-accc-9b1c05041254",
+                    "hasValidationError" : false,
+                    "id" : "pbImage"
+                  }
+                ]
+              ]
+            },
+            {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 8,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "a273c564-9ace-4117-a954-709936aa1eb8",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Default label"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "text" : {
+                        "type" : "interpolation",
+                        "value" : "Detalii anunț imobiliar"
+                      },
+                      "alignment" : {
+                        "type" : "constant",
+                        "value" : "center"
+                      }
+                    },
+                    "reference" : "1acdedf0-8e7d-4912-9ac9-14157625cb6f",
+                    "hasValidationError" : false,
+                    "id" : "pbText"
+                  }
+                ],
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Default label"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "text" : {
+                        "type" : "interpolation",
+                        "value" : "Apartament cu 2 camere în Cantemir"
+                      },
+                      "alignment" : {
+                        "type" : "constant",
+                        "value" : "center"
+                      }
+                    },
+                    "reference" : "21b39686-6eab-47cd-b16b-2f7fce686991",
+                    "hasValidationError" : false,
+                    "id" : "pbText"
+                  }
+                ],
+                [
+                  {
+                    "type" : "container",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "repeatedCollection" : {
+                        "type" : "variable",
+                        "value" : ""
+                      }
+                    },
+                    "reference" : "9ae09e04-b7d7-4e13-aa0a-06ea4356af66",
+                    "hasValidationError" : false,
+                    "id" : "pbContainer",
+                    "rows" : [
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 6,
+                            "lg" : 6
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "required" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "minLength" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "maxLength" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "readOnly" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "labelHidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "label" : {
+                              "type" : "interpolation",
+                              "value" : "Persoană contact"
+                            },
+                            "labelPosition" : {
+                              "type" : "constant",
+                              "value" : "top"
+                            },
+                            "labelWidth" : {
+                              "type" : "constant",
+                              "value" : 4
+                            },
+                            "placeholder" : {
+                              "type" : "interpolation",
+                              "value" : "Ulman Theodor"
+                            },
+                            "value" : {
+                              "type" : "variable",
+                              "value" : ""
+                            },
+                            "type" : {
+                              "type" : "constant",
+                              "value" : "text"
+                            },
+                            "min" : {
+                              "type" : "constant"
+                            },
+                            "max" : {
+                              "type" : "constant"
+                            },
+                            "step" : {
+                              "type" : "constant",
+                              "value" : 1
+                            }
+                          },
+                          "reference" : "6a32604b-381c-4502-acb3-7cacbdca7395",
+                          "hasValidationError" : false,
+                          "id" : "pbInput"
+                        },
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 6,
+                            "lg" : 6
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "readOnly" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "required" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "labelHidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "label" : {
+                              "type" : "interpolation",
+                              "value" : "Dată anunț"
+                            },
+                            "labelPosition" : {
+                              "type" : "constant",
+                              "value" : "top"
+                            },
+                            "labelWidth" : {
+                              "type" : "constant",
+                              "value" : 4
+                            },
+                            "value" : {
+                              "type" : "variable",
+                              "value" : ""
+                            },
+                            "dateFormat" : {
+                              "type" : "constant",
+                              "value" : "dd/MM/yyyy"
+                            },
+                            "placeholder" : {
+                              "type" : "interpolation",
+                              "value" : "Introduceți data"
+                            },
+                            "showToday" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "todayLabel" : {
+                              "type" : "interpolation",
+                              "value" : "Astăzi"
+                            }
+                          },
+                          "reference" : "38c8a1fc-9998-4c4e-9e2f-c94834dc16fb",
+                          "hasValidationError" : false,
+                          "id" : "pbDatePicker"
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 3
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Oraș"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Iași"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "min" : {
+                  "type" : "constant"
+                },
+                "max" : {
+                  "type" : "constant"
+                },
+                "step" : {
+                  "type" : "constant",
+                  "value" : 1
+                }
+              },
+              "reference" : "d6757157-88da-4e6f-a294-3902b354f5bd",
+              "hasValidationError" : false,
+              "id" : "pbInput"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 3
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Adresă"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Cantemir, nr. 39"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "min" : {
+                  "type" : "constant"
+                },
+                "max" : {
+                  "type" : "constant"
+                },
+                "step" : {
+                  "type" : "constant",
+                  "value" : 1
+                }
+              },
+              "reference" : "f365c5cd-96a4-40b8-85cf-a9935b08ed15",
+              "hasValidationError" : false,
+              "id" : "pbInput"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 3
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Zonă imobil"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : ""
+                },
+                "availableValues" : {
+                  "type" : "constant",
+                  "value" : [
+                    "rural",
+                    "urban"
+                  ]
+                },
+                "displayedKey" : {
+                  "type" : "constant"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "6f4e86ef-22d1-4ebb-a589-5bd2b839e096",
+              "hasValidationError" : false,
+              "id" : "pbSelect"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 3
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Preț Euro"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "140.000"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "min" : {
+                  "type" : "constant"
+                },
+                "max" : {
+                  "type" : "constant"
+                },
+                "step" : {
+                  "type" : "constant",
+                  "value" : 1
+                }
+              },
+              "reference" : "202e4c09-e2e2-42e8-8ba5-401ad9e12abe",
+              "hasValidationError" : false,
+              "id" : "pbInput"
+            }
+          ],
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "7424585d-ac7f-4547-a9d3-2568d45af7ce",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 3,
+                      "lg" : 3
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "disabled" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Compartimentare"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation",
+                        "value" : ""
+                      },
+                      "availableValues" : {
+                        "type" : "constant",
+                        "value" : [
+                          "nedecomandat",
+                          "semidecomandat",
+                          "decomandat",
+                          "circular",
+                          "vagon",
+                          "studio"
+                        ]
+                      },
+                      "displayedKey" : {
+                        "type" : "constant"
+                      },
+                      "returnedKey" : {
+                        "type" : "constant"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : ""
+                      }
+                    },
+                    "reference" : "cc8a08ef-070f-48e1-ba16-3c834cedc590",
+                    "hasValidationError" : false,
+                    "id" : "pbSelect"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 3,
+                      "lg" : 3
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Etaj"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : ""
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "7c6aeb9d-b472-4083-b114-57079032cd64",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 3,
+                      "lg" : 3
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Număr camere"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : ""
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "be9057a4-fdec-4005-b108-d607eeb5cd71",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 3,
+                      "lg" : 3
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Metri pătrați"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : ""
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "c059be7b-b974-47e4-8ba0-9aaa3f2f3751",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Detalii anunț"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "4b9de6d4-8d38-4aee-a172-17eebcc928cb",
+              "hasValidationError" : false,
+              "id" : "pbTextarea"
+            }
+          ]
+        ]
+      },
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 2,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "26c0c1df-bca4-472b-95ca-a1dc3a7494c6",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Acțiuni anunț"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                }
+              },
+              "reference" : "3d33d3fd-bb66-4904-85b7-79e4a45519d2",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Modifică anunț"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "buttonStyle" : {
+                  "type" : "constant",
+                  "value" : "primary"
+                },
+                "action" : {
+                  "type" : "constant",
+                  "value" : "Submit task"
+                },
+                "assign" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "url" : {
+                  "type" : "interpolation"
+                },
+                "responseStatusCode" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "dataToSend" : {
+                  "type" : "constant"
+                },
+                "dataFromSuccess" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "closeOnSuccess" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "dataFromError" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "targetUrlOnSuccess" : {
+                  "type" : "interpolation"
+                },
+                "collectionToModify" : {
+                  "type" : "variable"
+                },
+                "modalId" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "collectionPosition" : {
+                  "type" : "constant",
+                  "value" : "Last"
+                },
+                "valueToAdd" : {
+                  "type" : "constant"
+                },
+                "removeItem" : {
+                  "type" : "variable"
+                }
+              },
+              "reference" : "fb31b412-5f1c-40a5-9b3e-2c8618f93a27",
+              "hasValidationError" : false,
+              "id" : "pbButton"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Salvează anunț"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "buttonStyle" : {
+                  "type" : "constant",
+                  "value" : "success"
+                },
+                "action" : {
+                  "type" : "constant",
+                  "value" : "Submit task"
+                },
+                "assign" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "url" : {
+                  "type" : "interpolation"
+                },
+                "responseStatusCode" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "dataToSend" : {
+                  "type" : "constant"
+                },
+                "dataFromSuccess" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "closeOnSuccess" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "dataFromError" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "targetUrlOnSuccess" : {
+                  "type" : "interpolation"
+                },
+                "collectionToModify" : {
+                  "type" : "variable"
+                },
+                "modalId" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "collectionPosition" : {
+                  "type" : "constant",
+                  "value" : "Last"
+                },
+                "valueToAdd" : {
+                  "type" : "constant"
+                },
+                "removeItem" : {
+                  "type" : "variable"
+                }
+              },
+              "reference" : "41767a80-fbb3-4feb-9eac-f8fd9eba72b7",
+              "hasValidationError" : false,
+              "id" : "pbButton"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Ștergere anunț"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "buttonStyle" : {
+                  "type" : "constant",
+                  "value" : "danger"
+                },
+                "action" : {
+                  "type" : "constant",
+                  "value" : "Submit task"
+                },
+                "assign" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "url" : {
+                  "type" : "interpolation"
+                },
+                "responseStatusCode" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "dataToSend" : {
+                  "type" : "constant"
+                },
+                "dataFromSuccess" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "closeOnSuccess" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "dataFromError" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "targetUrlOnSuccess" : {
+                  "type" : "interpolation"
+                },
+                "collectionToModify" : {
+                  "type" : "variable"
+                },
+                "modalId" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "collectionPosition" : {
+                  "type" : "constant",
+                  "value" : "Last"
+                },
+                "valueToAdd" : {
+                  "type" : "constant"
+                },
+                "removeItem" : {
+                  "type" : "variable"
+                }
+              },
+              "reference" : "166b98d7-da07-40f8-8cd2-c988d4fcd5c2",
+              "hasValidationError" : false,
+              "id" : "pbButton"
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "bbfc88a5-9ba3-4d4e-a645-3f1e3d1c855b",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "4d437a35-2928-48fe-b9f1-6abbca05a461",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "8aa8a857-bcc2-40e5-b738-5bfbc00ca24a",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

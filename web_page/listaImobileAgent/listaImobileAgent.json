@@ -1,0 +1,429 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "listaImobileAgent",
+  "name" : "listaImobileAgent",
+  "lastUpdate" : 1619272540006,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 2,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "2b4cf724-7a9c-4dc6-9c3f-4aba07e5e74e",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
+        ]
+      },
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 8,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "c16243b3-65f2-4f34-87d3-33bad24da875",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Selectați din tabelul de mai jos imobilele dorite."
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                }
+              },
+              "reference" : "217a45db-d85a-45fb-ab01-dc995aa3540b",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "headers" : {
+                  "type" : "constant",
+                  "value" : [
+                    "Id",
+                    "Nume Anunț",
+                    "Persoană contact",
+                    "Locație",
+                    "Data publicării"
+                  ]
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "Bonita API"
+                },
+                "apiUrl" : {
+                  "type" : "constant",
+                  "value" : "../API/"
+                },
+                "params" : {
+                  "type" : "constant"
+                },
+                "content" : {
+                  "type" : "constant"
+                },
+                "columnsKey" : {
+                  "type" : "constant"
+                },
+                "sortColumns" : {
+                  "type" : "constant"
+                },
+                "selectedRow" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "pageSize" : {
+                  "type" : "constant",
+                  "value" : 10
+                },
+                "filter" : {
+                  "type" : "constant"
+                },
+                "striped" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "condensed" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "bordered" : {
+                  "type" : "constant",
+                  "value" : false
+                }
+              },
+              "reference" : "d09300ca-5b88-4da0-9dd6-a3e8dd795f72",
+              "hasValidationError" : false,
+              "id" : "pbDataTable"
+            }
+          ]
+        ]
+      },
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 2,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "1927370a-9a39-4ea2-81f7-53594ca63f98",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 2,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "cce13313-5654-40a1-b5a6-c43990c1ef3e",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
+        ]
+      },
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 8,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "213ad809-a167-477a-8a1a-c3109ad41461",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Ștergere anunțuri selectate"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "buttonStyle" : {
+                  "type" : "constant",
+                  "value" : "danger"
+                },
+                "action" : {
+                  "type" : "constant",
+                  "value" : "Submit task"
+                },
+                "assign" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "url" : {
+                  "type" : "interpolation"
+                },
+                "responseStatusCode" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "dataToSend" : {
+                  "type" : "constant"
+                },
+                "dataFromSuccess" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "closeOnSuccess" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "dataFromError" : {
+                  "type" : "variable",
+                  "value" : ""
+                },
+                "targetUrlOnSuccess" : {
+                  "type" : "interpolation"
+                },
+                "collectionToModify" : {
+                  "type" : "variable"
+                },
+                "modalId" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "collectionPosition" : {
+                  "type" : "constant",
+                  "value" : "Last"
+                },
+                "valueToAdd" : {
+                  "type" : "constant"
+                },
+                "removeItem" : {
+                  "type" : "variable"
+                }
+              },
+              "reference" : "7f932270-3d7a-4042-bcfe-e413019f2fbb",
+              "hasValidationError" : false,
+              "id" : "pbButton"
+            }
+          ]
+        ]
+      },
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 2,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "01dd489a-5a03-4618-9804-4996e5c15542",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "381ce5d5-7298-4ef7-ad96-9d164a8e0050",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "d473741f-2f37-4732-886e-83432cd7ebbc",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "8c1e8fda-77ba-4bcb-ae88-074171103ff2",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
