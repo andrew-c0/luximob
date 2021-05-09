@@ -1,4 +1,5 @@
-bonitaUserName=walter.bates
-bonitaUserPassword=bpm
-defaultOrganization=ACME
+bonitaUserName=global_1
+bonitaUserPassword=12345678
+defaultOrganization=FEAA
 eclipse.preferences.version=1
+publishOrganization=false

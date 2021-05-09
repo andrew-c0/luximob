@@ -208,12 +208,6 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_tVg2mJfJEeuIqfmUikBMiw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_tVg2mZfJEeuIqfmUikBMiw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_tVg2mpfJEeuIqfmUikBMiw" name="" content="" returnTypeFixed="true"/>
-          <data xmi:type="process:Data" xmi:id="_X3wFwJfPEeuIqfmUikBMiw" name="username" dataType="_tVg2wZfJEeuIqfmUikBMiw">
-            <defaultValue xmi:type="expression:Expression" xmi:id="_X3wFwZfPEeuIqfmUikBMiw" content=""/>
-          </data>
-          <data xmi:type="process:Data" xmi:id="_YkcMoJfPEeuIqfmUikBMiw" name="password" dataType="_tVg2wZfJEeuIqfmUikBMiw">
-            <defaultValue xmi:type="expression:Expression" xmi:id="_YkcMoZfPEeuIqfmUikBMiw" content=""/>
-          </data>
           <loopCondition xmi:type="expression:Expression" xmi:id="_tVg2m5fJEeuIqfmUikBMiw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_tVg2nJfJEeuIqfmUikBMiw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_tVg2nZfJEeuIqfmUikBMiw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -226,19 +220,24 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_UZDGyJ4QEeuhDIT5lSEpOA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_tfvFUK6NEeu-s5nR_VqP-w" name="admin" dataType="_tVg2xJfJEeuIqfmUikBMiw" className="com.company.luxmob.DataModelAdmin">
+        <defaultValue xmi:type="expression:Expression" xmi:id="__JxogLDaEeuedochNpJCTQ" name="initAdmin()" content="def dataModelAdminVar = new com.company.luxmob.DataModelAdmin()&#xD;&#xA;dataModelAdminVar.mail = adminInput?.mail&#xD;&#xA;dataModelAdminVar.password = adminInput?.password&#xD;&#xA;return dataModelAdminVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.luxmob.DataModelAdmin">
+          <referencedElements xmi:type="process:ContractInput" xmi:id="__JxogbDaEeuedochNpJCTQ" name="adminInput" type="COMPLEX"/>
+        </defaultValue>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_tVg2pJfJEeuIqfmUikBMiw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_xfZOBp4UEeuhDIT5lSEpOA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_xfZOBp4UEeuhDIT5lSEpOA" name="autentificareAdmin" content="5879431a-e72d-40c2-91cd-bbb474e9000d" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_tVg2ppfJEeuIqfmUikBMiw">
         <targetForm xmi:type="expression:Expression" xmi:id="_tVg2p5fJEeuIqfmUikBMiw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </overviewFormMapping>
       <connections xmi:type="process:SequenceFlow" xmi:id="_tVg2qJfJEeuIqfmUikBMiw" target="_UZCfsJ4QEeuhDIT5lSEpOA" source="_tVg2k5fJEeuIqfmUikBMiw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_tVg2qZfJEeuIqfmUikBMiw"/>
-        <condition xmi:type="expression:Expression" xmi:id="_tVg2qpfJEeuIqfmUikBMiw" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_tVg2qpfJEeuIqfmUikBMiw" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_pGO9QJfKEeuIqfmUikBMiw" target="_IYKIEJfLEeuIqfmUikBMiw" source="_UZCfsJ4QEeuhDIT5lSEpOA">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_pGO9QZfKEeuIqfmUikBMiw"/>
-        <condition xmi:type="expression:Expression" xmi:id="_pGO9QpfKEeuIqfmUikBMiw" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_pGO9QpfKEeuIqfmUikBMiw" name="" content="" interpreter="GROOVY" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_9bUAAJfKEeuIqfmUikBMiw" name="valide" target="_9bJn8JfKEeuIqfmUikBMiw" source="_IYKIEJfLEeuIqfmUikBMiw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_9bZfkJfKEeuIqfmUikBMiw"/>
@@ -313,7 +312,18 @@
         <condition xmi:type="expression:Expression" xmi:id="_1-pycpfQEeuIqfmUikBMiw" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_tVg2q5fJEeuIqfmUikBMiw" documentation="This is an example of actor that is mapped to any ACME users" name="Administrator" initiator="true"/>
-      <contract xmi:type="process:Contract" xmi:id="_tVg2rJfJEeuIqfmUikBMiw"/>
+      <contract xmi:type="process:Contract" xmi:id="_tVg2rJfJEeuIqfmUikBMiw">
+        <inputs xmi:type="process:ContractInput" xmi:id="__JxBcLDaEeuedochNpJCTQ" name="adminInput" type="COMPLEX" dataReference="admin">
+          <inputs xmi:type="process:ContractInput" xmi:id="__JxBcbDaEeuedochNpJCTQ" name="mail"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="__JxBcrDaEeuedochNpJCTQ" name="password"/>
+        </inputs>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="__JxBc7DaEeuedochNpJCTQ" expression="adminInput?.mail != null" errorMessage="mail is mandatory for DataModelAdmin" name="mandatory_adminInput_mail">
+          <inputNames>adminInput</inputNames>
+        </constraints>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="__JxBdLDaEeuedochNpJCTQ" expression="adminInput?.password != null" errorMessage="password is mandatory for DataModelAdmin" name="mandatory_adminInput_password">
+          <inputNames>adminInput</inputNames>
+        </constraints>
+      </contract>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_tVg2rZfJEeuIqfmUikBMiw">
         <name xmi:type="expression:Expression" xmi:id="_tVg2rpfJEeuIqfmUikBMiw" content="" returnTypeFixed="true"/>
         <value xmi:type="expression:Expression" xmi:id="_tVg2r5fJEeuIqfmUikBMiw" content="" returnTypeFixed="true"/>

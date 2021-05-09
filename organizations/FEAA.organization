@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="FEAA" description="">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="cump_1">
+      <firstName>cumparator</firstName>
+      <lastName>cumparator</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">12345678</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="cump_2">
+      <firstName>cumparator2</firstName>
+      <lastName>cumparator2</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">12345678</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="admin_1">
+      <firstName>admin</firstName>
+      <lastName>admin</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">12345678</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="agent_1">
+      <firstName>agent</firstName>
+      <lastName>agent</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">12345678</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="global_1">
+      <firstName>global</firstName>
+      <lastName>global</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">12345678</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Cumparator">
+      <displayName>Cumparator</displayName>
+    </role>
+    <role name="Admin">
+      <displayName>Admin</displayName>
+    </role>
+    <role name="Agent">
+      <displayName>Agent</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Cumparatori">
+      <displayName>Cumparatori</displayName>
+    </group>
+    <group name="Agenti">
+      <displayName>Agenti</displayName>
+    </group>
+    <group name="Admin">
+      <displayName>Admin</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>cump_1</userName>
+      <roleName>Cumparator</roleName>
+      <groupName>Cumparatori</groupName>
+    </membership>
+    <membership>
+      <userName>cump_2</userName>
+      <roleName>Cumparator</roleName>
+      <groupName>Cumparatori</groupName>
+    </membership>
+    <membership>
+      <userName>admin_1</userName>
+      <roleName>Admin</roleName>
+      <groupName>Admin</groupName>
+    </membership>
+    <membership>
+      <userName>agent_1</userName>
+      <roleName>Agent</roleName>
+      <groupName>Agenti</groupName>
+    </membership>
+    <membership>
+      <userName>global_1</userName>
+      <roleName>Cumparator</roleName>
+      <groupName>Cumparatori</groupName>
+    </membership>
+    <membership>
+      <userName>global_1</userName>
+      <roleName>Agent</roleName>
+      <groupName>Agenti</groupName>
+    </membership>
+    <membership>
+      <userName>global_1</userName>
+      <roleName>Admin</roleName>
+      <groupName>Admin</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

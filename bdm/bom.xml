@@ -1,27 +1,85 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.12.1">
     <businessObjects>
-        <businessObject qualifiedName="com.company.model.AutentificareAdmin">
-            <description>Datele pentru autentificare.</description>
+        <businessObject qualifiedName="com.company.luxmob.DataModelAchizitie">
             <fields>
-                <field type="STRING" length="255" name="username" nullable="false" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.luxmob.DataModelAgent" fetchType="LAZY" name="id_agent" nullable="false" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.luxmob.DataModelCumparator" fetchType="LAZY" name="id_cumparator" nullable="false" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.luxmob.DataModelAnunt" fetchType="LAZY" name="id_anunt" nullable="false" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="data_tranzactie" nullable="false" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="data_update_tranzactie" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.luxmob.DataModelAdmin">
+            <fields>
+                <field type="STRING" length="255" name="mail" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="password" nullable="false" collection="false"/>
             </fields>
-            <uniqueConstraints>
-                <uniqueConstraint name="uniqueConstraint">
-                    <fieldNames>
-                        <fieldName>username</fieldName>
-                    </fieldNames>
-                </uniqueConstraint>
-            </uniqueConstraints>
+            <uniqueConstraints/>
             <queries/>
-            <indexes>
-                <index name="indeUsername">
-                    <fieldNames>
-                        <fieldName>username</fieldName>
-                    </fieldNames>
-                </index>
-            </indexes>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.luxmob.DataModelAgent">
+            <fields>
+                <field type="STRING" length="255" name="mail" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="password" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nume" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="prenume" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="telefon" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="adresa" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="agentie" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="motiv_stergere" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="deleted" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.luxmob.DataModelAnunt">
+            <fields>
+                <field type="STRING" length="255" name="denumire" nullable="false" collection="false"/>
+                <field type="STRING" length="2048" name="descriere" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="data_publicare" nullable="false" collection="false"/>
+                <field type="DOUBLE" length="255" name="pret" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="oras" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="adresa" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="zona_imobil" nullable="false" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.luxmob.DataModelAgent" fetchType="LAZY" name="id_agent" nullable="false" collection="false"/>
+                <field type="DOUBLE" length="255" name="comision" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="compartimentare" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="etaj" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="nr_camere" nullable="false" collection="false"/>
+                <field type="DOUBLE" length="255" name="metri_patrati" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="finantare" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="centrala_proprie" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="ac" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="mobilat" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="renovat" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="motiv_stergere" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="deleted" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.luxmob.DataModelCumparator">
+            <fields>
+                <field type="STRING" length="255" name="mail" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="password" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nume" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="prenume" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="telefon" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="adresa" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="motiv_stergere" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="deleted" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
         </businessObject>
     </businessObjects>
 </businessObjectModel>

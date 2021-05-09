@@ -1,14 +1,6 @@
 #FileLock
-<<<<<<< HEAD
-#Sat Apr 24 13:53:05 EEST 2021
-server=192.168.0.122\:5789
-hostName=192.168.0.122
+#Sun May 09 19:08:05 EEST 2021
+server=192.168.0.195\:24399
+hostName=192.168.0.195
 method=file
-id=1790382f89684c8dd03183accc1f957ecaa4d43f8b2
-=======
-#Thu Apr 22 20:19:10 EEST 2021
-server=172.30.176.1\:58539
-hostName=DESKTOP-FHMUKGK.mshome.net
-method=file
-id=178fa97b7eb45ea737930115137613d78e411a3d135
->>>>>>> bfac9d8abe343230eb8cb8fa6762415bf08d4199
+id=17951e2bf4818f12a09b7b0fbf1fb5aced37a249dcb
