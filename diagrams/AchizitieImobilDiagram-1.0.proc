@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:parameter="http://www.bonitasoft.org/ns/studio/parameter" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_g7sycJiTEeuiH60Puc3mNA" name="AchizitieImobilDiagram" author="unciu" bonitaVersion="7.12.1" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_g7sycZiTEeuiH60Puc3mNA" name="Achizitie Imobil">
       <elements xmi:type="process:Lane" xmi:id="_g7sycpiTEeuiH60Puc3mNA" name="Cumpărător" actor="_zX-ggJiTEeuiH60Puc3mNA">
@@ -83,10 +83,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_3tfydJiXEeuiH60Puc3mNA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_3tfyc5iXEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_JIFaAJiYEeuiH60Puc3mNA" name="Creează cont" outgoing="_mwHO0JiYEeuiH60Puc3mNA" incoming="_D6qS4JiYEeuiH60Puc3mNA" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_JIFaAJiYEeuiH60Puc3mNA" name="Creează cont" outgoing="_mwHO0JiYEeuiH60Puc3mNA" incoming="_D6qS4JiYEeuiH60Puc3mNA" actor="_zX-ggJiTEeuiH60Puc3mNA" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_D6kMQpiYEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_D6kMQZiYEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_D6kMQ5iYEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
+<<<<<<< HEAD
           <operations xmi:type="expression:Operation" xmi:id="_UHHvsLDcEeuedochNpJCTQ">
             <leftOperand xmi:type="expression:Expression" xmi:id="_UHHvsbDcEeuedochNpJCTQ" name="creareContCumparator" content="creareContCumparator" type="TYPE_VARIABLE" returnType="com.company.luxmob.DataModelCumparator">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_VLG8QLDcEeuedochNpJCTQ" name="creareContCumparator" dataType="_g7sypJiTEeuiH60Puc3mNA" className="com.company.luxmob.DataModelCumparator"/>
@@ -174,6 +175,8 @@
               <inputTypes>java.lang.Boolean</inputTypes>
             </operator>
           </operations>
+=======
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           <loopCondition xmi:type="expression:Expression" xmi:id="_D6kMRJiYEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_D6kMRZiYEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_D6kMRpiYEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -182,26 +185,7 @@
           <formMapping xmi:type="process:FormMapping" xmi:id="_JIFaCpiYEeuiH60Puc3mNA">
             <targetForm xmi:type="expression:Expression" xmi:id="_h2Gi45x9Eeumk8Ucz-RH9A" name="creeazaCont" content="624585d2-cd70-48e1-9580-48694218c192" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_JIFaCZiYEeuiH60Puc3mNA">
-            <inputs xmi:type="process:ContractInput" xmi:id="_CxdrcLDcEeuedochNpJCTQ" name="mail">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_CxdrcbDcEeuedochNpJCTQ"/>
-            </inputs>
-            <inputs xmi:type="process:ContractInput" xmi:id="_EvQN0LDcEeuedochNpJCTQ" name="password">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_EvQN0bDcEeuedochNpJCTQ"/>
-            </inputs>
-            <inputs xmi:type="process:ContractInput" xmi:id="_FRqXULDcEeuedochNpJCTQ" name="nume">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_FRqXUbDcEeuedochNpJCTQ"/>
-            </inputs>
-            <inputs xmi:type="process:ContractInput" xmi:id="_INWFULDcEeuedochNpJCTQ" name="prenume">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_INWFUbDcEeuedochNpJCTQ"/>
-            </inputs>
-            <inputs xmi:type="process:ContractInput" xmi:id="_M_pWsLDcEeuedochNpJCTQ" name="telefon">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_M_pWsbDcEeuedochNpJCTQ"/>
-            </inputs>
-            <inputs xmi:type="process:ContractInput" xmi:id="_Nyl2kLDcEeuedochNpJCTQ" name="adresa">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_Nyl2kbDcEeuedochNpJCTQ"/>
-            </inputs>
-          </contract>
+          <contract xmi:type="process:Contract" xmi:id="_JIFaCZiYEeuiH60Puc3mNA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_JIFaDJiYEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_P00XwJiYEeuiH60Puc3mNA" name="Efectuează login" outgoing="_F3FG0JiZEeuiH60Puc3mNA" incoming="_KM9XYJiYEeuiH60Puc3mNA _ZEkE0JiYEeuiH60Puc3mNA _BocjMJiZEeuiH60Puc3mNA" overrideActorsOfTheLane="false">
@@ -372,7 +356,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_8SddUJiVEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_8SddUpiVEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_nKKYcJiWEeuiH60Puc3mNA" name="Administrează anunțuri" incoming="_YEEjEJiWEeuiH60Puc3mNA" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_nKKYcJiWEeuiH60Puc3mNA" name="Administrează anunțuri" incoming="_YEEjEJiWEeuiH60Puc3mNA" actor="_5zfycJiTEeuiH60Puc3mNA" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_YD-ccZiWEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_YD-ccJiWEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_YD-ccpiWEeuiH60Puc3mNA" name="" content="" returnTypeFixed="true"/>
@@ -382,7 +366,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_YD-cd5iWEeuiH60Puc3mNA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_YD-cdpiWEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_nKK_iZiWEeuiH60Puc3mNA">
+<<<<<<< HEAD
             <targetForm xmi:type="expression:Expression" xmi:id="_caJikLDsEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+            <targetForm xmi:type="expression:Expression" xmi:id="_r4JoALD0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_nKK_iJiWEeuiH60Puc3mNA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_nKK_i5iWEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -397,7 +385,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_WGh4WJiWEeuiH60Puc3mNA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_WGh4V5iWEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_zeIEeZiWEeuiH60Puc3mNA">
+<<<<<<< HEAD
             <targetForm xmi:type="expression:Expression" xmi:id="_caJikbDsEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+            <targetForm xmi:type="expression:Expression" xmi:id="_r4JoAbD0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_zeIEeJiWEeuiH60Puc3mNA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_zeIEe5iWEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -417,7 +409,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_oo0yB5iaEeuiH60Puc3mNA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_oo0yBpiaEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_shDn1ZiaEeuiH60Puc3mNA">
+<<<<<<< HEAD
             <targetForm xmi:type="expression:Expression" xmi:id="_caJikrDsEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+            <targetForm xmi:type="expression:Expression" xmi:id="_r4JoArD0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_shDn1JiaEeuiH60Puc3mNA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_shDn15iaEeuiH60Puc3mNA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -432,7 +428,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_FQhVx5icEeuMnLTQnxFs6A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_FQhVxpicEeuMnLTQnxFs6A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="__ZmEupx3EeunR90isTkFuQ">
+<<<<<<< HEAD
             <targetForm xmi:type="expression:Expression" xmi:id="_caJik7DsEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+            <targetForm xmi:type="expression:Expression" xmi:id="_r4JoA7D0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="__ZmEuZx3EeunR90isTkFuQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="__ZmEvJx3EeunR90isTkFuQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -447,7 +447,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_-UI4h5x3EeunR90isTkFuQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_-UI4hpx3EeunR90isTkFuQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_Sb20spx4Eeumk8Ucz-RH9A">
+<<<<<<< HEAD
             <targetForm xmi:type="expression:Expression" xmi:id="_caJilLDsEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+            <targetForm xmi:type="expression:Expression" xmi:id="_r4JoBLD0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Sb20sZx4Eeumk8Ucz-RH9A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_Sb20tJx4Eeumk8Ucz-RH9A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -467,7 +471,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_f_kRWJx4Eeumk8Ucz-RH9A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_f_kRV5x4Eeumk8Ucz-RH9A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_h3KFGJx4Eeumk8Ucz-RH9A">
+<<<<<<< HEAD
             <targetForm xmi:type="expression:Expression" xmi:id="_caJilbDsEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+            <targetForm xmi:type="expression:Expression" xmi:id="_r4JoBbD0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_h3KFF5x4Eeumk8Ucz-RH9A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_h3KFGpx4Eeumk8Ucz-RH9A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -482,7 +490,11 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_KEmZaJx5Eeumk8Ucz-RH9A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_KEmZZ5x5Eeumk8Ucz-RH9A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_N7E7tpx5Eeumk8Ucz-RH9A">
+<<<<<<< HEAD
             <targetForm xmi:type="expression:Expression" xmi:id="_caJilrDsEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+            <targetForm xmi:type="expression:Expression" xmi:id="_r4JoBrD0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_N7E7tZx5Eeumk8Ucz-RH9A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_N7E7uJx5Eeumk8Ucz-RH9A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -524,12 +536,16 @@
         </elements>
       </elements>
       <data xmi:type="process:BusinessObjectData" xmi:id="_bQjtALDbEeuedochNpJCTQ" name="creareContCumparator" dataType="_g7sypJiTEeuiH60Puc3mNA" className="com.company.luxmob.DataModelCumparator">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_uuRC7LDbEeuedochNpJCTQ" name="initCreareContCumparator()" content="def dataModelCumparatorVar = new com.company.luxmob.DataModelCumparator()&#xD;&#xA;dataModelCumparatorVar.mail = creareContCumparatorInput?.mail&#xD;&#xA;dataModelCumparatorVar.password = creareContCumparatorInput?.password&#xD;&#xA;dataModelCumparatorVar.nume = creareContCumparatorInput?.nume&#xD;&#xA;dataModelCumparatorVar.prenume = creareContCumparatorInput?.prenume&#xD;&#xA;dataModelCumparatorVar.telefon = creareContCumparatorInput?.telefon&#xD;&#xA;dataModelCumparatorVar.adresa = creareContCumparatorInput?.adresa&#xD;&#xA;return dataModelCumparatorVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.luxmob.DataModelCumparator">
-          <referencedElements xmi:type="process:ContractInput" xmi:id="_uuRC7bDbEeuedochNpJCTQ" name="creareContCumparatorInput" type="COMPLEX"/>
+        <defaultValue xmi:type="expression:Expression" xmi:id="_CPM_BbD0Eeu8woL_yyiYCQ" name="initCreareContCumparator()" content="def dataModelCumparatorVar = new com.company.luxmob.DataModelCumparator()&#xD;&#xA;dataModelCumparatorVar.mail = creareContCumparatorInput?.mail&#xD;&#xA;dataModelCumparatorVar.password = creareContCumparatorInput?.password&#xD;&#xA;dataModelCumparatorVar.nume = creareContCumparatorInput?.nume&#xD;&#xA;dataModelCumparatorVar.prenume = creareContCumparatorInput?.prenume&#xD;&#xA;dataModelCumparatorVar.telefon = creareContCumparatorInput?.telefon&#xD;&#xA;dataModelCumparatorVar.adresa = creareContCumparatorInput?.adresa&#xD;&#xA;return dataModelCumparatorVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.luxmob.DataModelCumparator">
+          <referencedElements xmi:type="process:ContractInput" xmi:id="_CPM_BrD0Eeu8woL_yyiYCQ" name="creareContCumparatorInput" type="COMPLEX"/>
         </defaultValue>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_g7syhJiTEeuiH60Puc3mNA">
+<<<<<<< HEAD
         <targetForm xmi:type="expression:Expression" xmi:id="_aQXoF7DrEeuPJNKfWcLo1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+=======
+        <targetForm xmi:type="expression:Expression" xmi:id="_r4JoB7D0Eeu8woL_yyiYCQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+>>>>>>> 0174616f95d8c0429155c3939e09166b020ad1aa
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_g7syhpiTEeuiH60Puc3mNA">
         <targetForm xmi:type="expression:Expression" xmi:id="_g7syh5iTEeuiH60Puc3mNA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -728,29 +744,28 @@
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_zX-ggJiTEeuiH60Puc3mNA" documentation="Persoana care dorește să achiziționeze un imobil." name="Cumpărător" initiator="true"/>
       <actors xmi:type="process:Actor" xmi:id="_5zfycJiTEeuiH60Puc3mNA" documentation="Persoana care intermediază procesul de vânzare al unui imobil." name="Agent imobiliar"/>
-      <parameters xmi:type="parameter:Parameter" xmi:id="_0S9lELDcEeuedochNpJCTQ" name="cumparatorDeleted" typeClassname="java.lang.Boolean"/>
       <contract xmi:type="process:Contract" xmi:id="_g7syjJiTEeuiH60Puc3mNA">
-        <inputs xmi:type="process:ContractInput" xmi:id="_uuRC4LDbEeuedochNpJCTQ" name="creareContCumparatorInput" type="COMPLEX" dataReference="creareContCumparator">
-          <inputs xmi:type="process:ContractInput" xmi:id="_uuRC4bDbEeuedochNpJCTQ" name="mail"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_uuRC4rDbEeuedochNpJCTQ" name="password"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_uuRC47DbEeuedochNpJCTQ" name="nume"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_uuRC5LDbEeuedochNpJCTQ" name="prenume"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_uuRC5bDbEeuedochNpJCTQ" name="telefon"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_uuRC5rDbEeuedochNpJCTQ" name="adresa"/>
+        <inputs xmi:type="process:ContractInput" xmi:id="_CPMX8LD0Eeu8woL_yyiYCQ" name="creareContCumparatorInput" type="COMPLEX" dataReference="creareContCumparator">
+          <inputs xmi:type="process:ContractInput" xmi:id="_CPMX8bD0Eeu8woL_yyiYCQ" name="mail"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_CPMX8rD0Eeu8woL_yyiYCQ" name="password"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_CPMX87D0Eeu8woL_yyiYCQ" name="nume"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_CPMX9LD0Eeu8woL_yyiYCQ" name="prenume"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_CPMX9bD0Eeu8woL_yyiYCQ" name="telefon"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_CPMX9rD0Eeu8woL_yyiYCQ" name="adresa"/>
         </inputs>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_uuRC57DbEeuedochNpJCTQ" expression="creareContCumparatorInput?.mail != null" errorMessage="mail is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_mail">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_CPM_ALD0Eeu8woL_yyiYCQ" expression="creareContCumparatorInput?.mail != null" errorMessage="mail is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_mail">
           <inputNames>creareContCumparatorInput</inputNames>
         </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_uuRC6LDbEeuedochNpJCTQ" expression="creareContCumparatorInput?.password != null" errorMessage="password is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_password">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_CPM_AbD0Eeu8woL_yyiYCQ" expression="creareContCumparatorInput?.password != null" errorMessage="password is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_password">
           <inputNames>creareContCumparatorInput</inputNames>
         </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_uuRC6bDbEeuedochNpJCTQ" expression="creareContCumparatorInput?.nume != null" errorMessage="nume is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_nume">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_CPM_ArD0Eeu8woL_yyiYCQ" expression="creareContCumparatorInput?.nume != null" errorMessage="nume is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_nume">
           <inputNames>creareContCumparatorInput</inputNames>
         </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_uuRC6rDbEeuedochNpJCTQ" expression="creareContCumparatorInput?.prenume != null" errorMessage="prenume is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_prenume">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_CPM_A7D0Eeu8woL_yyiYCQ" expression="creareContCumparatorInput?.prenume != null" errorMessage="prenume is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_prenume">
           <inputNames>creareContCumparatorInput</inputNames>
         </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_uuRC67DbEeuedochNpJCTQ" expression="creareContCumparatorInput?.telefon != null" errorMessage="telefon is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_telefon">
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_CPM_BLD0Eeu8woL_yyiYCQ" expression="creareContCumparatorInput?.telefon != null" errorMessage="telefon is mandatory for DataModelCumparator" name="mandatory_creareContCumparatorInput_telefon">
           <inputNames>creareContCumparatorInput</inputNames>
         </constraints>
       </contract>
