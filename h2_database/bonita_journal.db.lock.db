@@ -1,6 +1,6 @@
 #FileLock
-#Sun May 09 19:08:05 EEST 2021
-server=192.168.0.195\:24399
+#Sun May 09 20:13:47 EEST 2021
+server=192.168.0.195\:25395
 hostName=192.168.0.195
 method=file
-id=17951e2bf4818f12a09b7b0fbf1fb5aced37a249dcb
+id=179521ee7706bddf0f72b8be242371a3fbe1be94ae8
